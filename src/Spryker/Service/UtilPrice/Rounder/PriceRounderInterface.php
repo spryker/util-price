@@ -9,10 +9,5 @@ namespace Spryker\Service\UtilPrice\Rounder;
 
 interface PriceRounderInterface
 {
-    /**
-     * @param float $price
-     *
-     * @return int
-     */
     public function roundPrice(float $price): int;
 }

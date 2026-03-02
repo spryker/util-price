@@ -13,9 +13,6 @@ use Spryker\Service\UtilPrice\Rounder\PriceRounderInterface;
 
 class UtilPriceServiceFactory extends AbstractServiceFactory
 {
-    /**
-     * @return \Spryker\Service\UtilPrice\Rounder\PriceRounderInterface
-     */
     public function createPriceRounder(): PriceRounderInterface
     {
         return new PriceRounder();
